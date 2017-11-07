@@ -11,22 +11,14 @@ import UIKit
 class CalculatorViewController: UIViewController {
 
     @IBOutlet weak var numberLabel: UILabel!
+    private var isEnteringNumber = false
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func numberTapped(sender: UIButton) {
-        guard let currentNumber = numberLabel.text,
+        guard let currentNumber = isEnteringNumber ? numberLabel.text : "",
             let newDigit = sender.titleLabel!.text else { return }
         
         numberLabel.text = currentNumber + newDigit
+        isEnteringNumber = true
     }
 
 }
