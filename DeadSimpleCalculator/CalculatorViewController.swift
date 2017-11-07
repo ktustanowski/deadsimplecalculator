@@ -10,6 +10,8 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
+    @IBOutlet weak var numberLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,12 @@ class CalculatorViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func numberTapped(sender: UIButton) {
+        guard let currentNumber = numberLabel.text,
+            let newDigit = sender.titleLabel!.text else { return }
+        
+        numberLabel.text = currentNumber + newDigit
+    }
 
 }
 
