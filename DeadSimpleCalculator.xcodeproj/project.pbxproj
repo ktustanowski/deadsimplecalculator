@@ -12,7 +12,7 @@
 		9AC1ED4C1FB24F22000AD593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC1ED4A1FB24F22000AD593 /* Main.storyboard */; };
 		9AC1ED4E1FB24F22000AD593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC1ED4D1FB24F22000AD593 /* Assets.xcassets */; };
 		9AC1ED511FB24F22000AD593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC1ED4F1FB24F22000AD593 /* LaunchScreen.storyboard */; };
-		9AC1ED5C1FB24F22000AD593 /* DeadSimpleCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1ED5B1FB24F22000AD593 /* DeadSimpleCalculatorTests.swift */; };
+		9AC1ED5C1FB24F22000AD593 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1ED5B1FB24F22000AD593 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		9AC1ED501FB24F22000AD593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC1ED521FB24F22000AD593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC1ED571FB24F22000AD593 /* DeadSimpleCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadSimpleCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC1ED5B1FB24F22000AD593 /* DeadSimpleCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadSimpleCalculatorTests.swift; sourceTree = "<group>"; };
+		9AC1ED5B1FB24F22000AD593 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		9AC1ED5D1FB24F22000AD593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 		9AC1ED5A1FB24F22000AD593 /* DeadSimpleCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				9AC1ED5B1FB24F22000AD593 /* DeadSimpleCalculatorTests.swift */,
+				9AC1ED5B1FB24F22000AD593 /* CalculatorViewController.swift */,
 				9AC1ED5D1FB24F22000AD593 /* Info.plist */,
 			);
 			path = DeadSimpleCalculatorTests;
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC1ED5C1FB24F22000AD593 /* DeadSimpleCalculatorTests.swift in Sources */,
+				9AC1ED5C1FB24F22000AD593 /* CalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

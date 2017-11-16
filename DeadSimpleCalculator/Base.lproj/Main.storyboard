@@ -58,6 +58,9 @@
                                                 <rect key="frame" x="258" y="0.0" width="86" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
                                                 <state key="normal" title="÷"/>
+                                                <connections>
+                                                    <action selector="signTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="008-fw-0r2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -98,6 +101,9 @@
                                                 <rect key="frame" x="258" y="0.0" width="86" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
                                                 <state key="normal" title="×"/>
+                                                <connections>
+                                                    <action selector="signTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEx-X3-Zxj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -137,6 +143,9 @@
                                                 <rect key="frame" x="258" y="0.0" width="86" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="signTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XMC-Yd-ZpB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -167,11 +176,17 @@
                                                 <rect key="frame" x="172" y="0.0" width="86" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
                                                 <state key="normal" title="="/>
+                                                <connections>
+                                                    <action selector="signTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K02-8f-CsJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNG-8K-NQC">
                                                 <rect key="frame" x="258" y="0.0" width="86" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
                                                 <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="signTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Gc-bZ-LXJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
